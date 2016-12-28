@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    "src/server/",
+    "src/express-server/"
+  ],
+  "ext": "js json"
+}

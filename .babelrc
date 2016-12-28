@@ -1,0 +1,42 @@
+{
+  "env": {
+    "server": {
+      "presets": [
+        "stage-0",
+        "es2015",
+        "react"
+      ],
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "transform-regenerator"
+      ]
+    },
+
+    "client-dev": {
+      "presets": [
+        "react-hmre",
+        "es2015",
+        "react",
+        "stage-0"
+      ],
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "transform-regenerator"
+      ]
+    },
+
+    "client-build": {
+      "presets": [
+        "es2015",
+        "react",
+        "stage-0"
+      ],
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-class-properties"
+      ]
+    }
+  }
+}
